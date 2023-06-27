@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Виртуальная экскурсия по моему дому!</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<script src='ec.js'></script>
+	<header class="header">
+	<div class="headermain">
+	</div>
+	<div class="bebra">
+		<div class="boba">
+			<h1>Виртуальная экскурсия по моему дому!</h1>
+			<a href="#locationtxt"><h1>Впepёд</h1></a>
+		</div>
+
+	</div>	
+	</header>
+	<main>
+		<div class="house">
+			<p class="housebig" >Выберите Локацию: </p>
+			<select size="1" id="ABC" onchange="ABC()">
+				<option value="def" id="choose">Локация</option>
+				<option id="k1" value="komnata1">
+					<div class="k1">
+					Коридор
+					</div>
+				</option>
+
+				<option id="k2" value="komnata2">
+					<div class="k2">
+					Коридор 2
+					</div>	
+				</option>
+
+				<option id="k3" value="komnata3">
+					<div class="k3">
+					Моя комната
+					</div>	
+					</option>
+
+				<option id="k4" value="komnata4">
+					<div class="k4">
+					комната сестры
+					</div>	
+				</option>
+
+				<option id="k5" value="komnata5">
+					<div class="k5">
+					Туалет
+					</div>	
+				</option>
+
+				<option id="k6" value="komnata6">
+					<div class="k6">
+					Кухня
+					</div>	
+				</option>
+		</select>
+		</div> 
+		<!-- cabinets -->
+
+		<div class="imgs">
+			<img src="foto/koridor.jpg" alt="" class="kom1 hidden" id="loc">
+			<img src="foto/koridor2.jpg" alt="" class="kom2 hidden" id="loc">
+			<img src="foto/moya_k.jpg" alt="" class="kom3 hidden" id="loc">
+			<img src="foto/k_sestri.jpg" alt="" class="kom4 hidden" id="loc">
+			<img src="foto/tualet.jpg.jpg" alt="" class="kom5 hidden" id="loc">
+			<img src="foto/kuhnya.jpg" alt="" class="kom6 hidden" id="loc">
+		</div>
+
+	</main>
+    <footer>
+    	<P>Работу выполнил Чучнев Е.Р</P>
+    </footer>
+</body>
+</html>
